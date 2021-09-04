@@ -14,7 +14,11 @@ When Serial BT stalls , software watch dog timer reboots ESP32.
 
 ## Application 
 
+![ataglance](https://github.com/coniferconifer/ESP32-dual-GPS-BTserial/blob/main/comparison2.png)
+2dRMS(m) for Location and Height comparison
+
 ![system](https://github.com/coniferconifer/ESP32-dual-GPS-BTserial/blob/main/block.drawio.png)
+
 ![multiGNSS](https://github.com/coniferconifer/ESP32-dual-GPS-BTserial/blob/main/dualgps.jpg)
 
 Use your external GPS module as Android's internal GPS.
@@ -64,4 +68,9 @@ MIT License
 
 ## single GPS BT serial
 https://github.com/coniferconifer/ESP32-GPS-BTserial
+
+## Misc
+To observe the Sun flare , precise height from GNSS module is necessary.
+Geospatial Information Authority of Japan observed GPS height anormaly
+in Sep 8,2017 (JST) in Ref.  https://www.gsi.go.jp/denshi/denshi40001.html
  
