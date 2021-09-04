@@ -40,6 +40,11 @@ GPS used to test : M5stack GPS module (using AT6558) , connected by 9600bps seri
 
 AT6558 https://shop.m5stack.com/products/mini-gps-bds-unit
 
+Android BT serial terminal: https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=ja&gl=US
+
+Monitoring tool : "NMEA Monitor for windows" http://4river.a.la9.jp/gps/index.htm
+
+
 ## Libraries 
 TinyGPS+
 
@@ -54,4 +59,7 @@ Ref. https://github.com/espressif/arduino-esp32/blob/master/libraries/BluetoothS
 Copyright 2021(C) coniferconifer
 
 MIT License
+
+## single GPS BT serial
+https://github.com/coniferconifer/ESP32-GPS-BTserial
  
