@@ -1,7 +1,7 @@
 # ESP32 dual GPS-BT-server with watch dog timer
 
 By hooking up two multiGNSS GPS modules to ESP32, 
-This program read NMEA from two GPS modules and averages latitude,longitude,height and course, then 
+This program read NMEA from two GPS modules and averages latitude,longitude,height,number of satellites, hdop and course, then 
 outputs NMEA to Bluetooth Serial Port Profile.
 
 NMEA can be monitored by ESP32's USB serial port.
@@ -36,6 +36,8 @@ GPS1 TX should be connected to GPIO_NUM_33 of ESP32
 
 GPS2 TX should be connected to GPIO_NUM_16 of ESP32
 
+LED with resister at GPIO_NUM_2 blinks every 2sec.
+
 GPS used to test : M5stack GPS module (using AT6558) , connected by 9600bps serial.
 
 AT6558 https://shop.m5stack.com/products/mini-gps-bds-unit
@@ -43,7 +45,7 @@ AT6558 https://shop.m5stack.com/products/mini-gps-bds-unit
 Android BT serial terminal: https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=ja&gl=US
 
 Monitoring tool : "NMEA Monitor for windows" http://4river.a.la9.jp/gps/index.htm
-
+"NMEA Monitor for windows" provides 2dRMS to see dual GPS provides better accuracy or not.
 
 ## Libraries 
 TinyGPS+
