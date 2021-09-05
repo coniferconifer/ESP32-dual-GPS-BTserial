@@ -49,7 +49,9 @@ AT6558 https://shop.m5stack.com/products/mini-gps-bds-unit
 Android BT serial terminal: https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=ja&gl=US
 
 Monitoring tool : "NMEA Monitor for windows" http://4river.a.la9.jp/gps/index.htm
-"NMEA Monitor for windows" provides 2dRMS to see dual GPS provides better accuracy or not.
+
+"NMEA Monitor for windows" provides 2dRMS to see dual GPS has better accuracy or not. d2RMS is twice the distance root mean sq
+uare radial, says 95% of data falls in this distance(m) from central value.
 
 ## Libraries 
 TinyGPS+
