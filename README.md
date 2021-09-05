@@ -50,8 +50,7 @@ Android BT serial terminal: https://play.google.com/store/apps/details?id=de.kai
 
 Monitoring tool : "NMEA Monitor for windows" http://4river.a.la9.jp/gps/index.htm
 
-"NMEA Monitor for windows" provides 2dRMS to see dual GPS has better accuracy or not. d2RMS is twice the distance root mean sq
-uare radial, says 95% of data falls in this distance(m) from central value.
+"NMEA Monitor for windows" provides 2dRMS to see dual GPS has better accuracy or not. d2RMS is twice the distance root mean square radial, says 95% of data falls in this distance(m) from central value.
 
 ## Libraries 
 TinyGPS+
