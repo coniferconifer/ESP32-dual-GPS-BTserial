@@ -19,7 +19,6 @@ When Serial BT stalls , software watch dog timer reboots ESP32.
 
 ![system](https://github.com/coniferconifer/ESP32-dual-GPS-BTserial/blob/main/block.drawio.png)
 
-![multiGNSS](https://github.com/coniferconifer/ESP32-dual-GPS-BTserial/blob/main/dualgps.jpg)
 
 Use your external GPS module as Android's internal GPS.
 
